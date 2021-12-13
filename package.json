@@ -27,7 +27,7 @@
     "eject": "react-scripts eject",
     "prepare": "husky install",
     "predeploy": "npm run build",
-    "deploy": "netlifly deploy -p"
+    "deploy": "netlify deploy -p"
   },
   "eslintConfig": {
     "extends": [
