@@ -1,0 +1,12 @@
+.noReview {
+  font-size: 30px;
+  text-align: center;
+}
+
+.reviewsList {
+  list-style: none;
+}
+
+.review {
+  text-indent: 18px;
+}

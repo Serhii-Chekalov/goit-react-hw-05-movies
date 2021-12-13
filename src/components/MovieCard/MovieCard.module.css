@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.info {
+  margin-left: 20px;
+}
+
+.links {
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+}
+.links:hover {
+  color: rgb(52, 202, 52);
+}
+
+.list {
+  list-style: none;
+}
+
+.activeLink {
+  color: rgb(52, 202, 52);
+}
