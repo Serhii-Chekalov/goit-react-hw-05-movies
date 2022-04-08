@@ -4,10 +4,10 @@ import AppBar from "./Components/AppBar/AppBar";
 import { css } from "@emotion/react";
 import CircleLoader from "react-spinners/CircleLoader";
 
-const HomePage = lazy(() => import("./Components/HomePage/HomePage.js"));
-const MoviesPage = lazy(() => import("./Components/MoviesPage/MoviesPage.js"));
+const HomePage = lazy(() => import("./pages/HomePage/HomePage.js"));
+const MoviesPage = lazy(() => import("./pages/MoviesPage/MoviesPage.js"));
 const MovieDetailsPage = lazy(() =>
-  import("./Components/MovieDetailsPage/MovieDetailsPage.js")
+  import("./pages/MovieDetailsPage/MovieDetailsPage.js")
 );
 
 const override = css`
